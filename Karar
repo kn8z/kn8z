@@ -1,0 +1,33 @@
+import os, time, sys
+os.system('clear')
+print '\x1b[1;32m'
+x = '_____________ ^_^ WELCOME TO MAY SCRIPT  ^_^ ________________\nTHIS SECRIPT Amino.>
+for i in x:
+    sys.stdout.write(i)
+    sys.stdout.flush()
+    time.sleep(0.06)
+
+animation = '|/-\\'
+for i in range(60):
+    time.sleep(0.1)
+    sys.stdout.write('\r\x1b[32;1m[\x1b[37;1m+\x1b[32;1m]\x1b[37;1m LOADING.\x1b[32;1m'>
+    sys.stdout.flush()
+print ' '
+print '      \033[0;40m _   _ \033[1;40m      ___ \033[1;40m  _     \033[1;40m      ___>
+print '      \033[0;40m| | | |\033[1;40m     /   |\033[1;40m | |    \033[1;40m     /   >
+print '      \033[0;40m| |_| |\033[1;40m    / /| |\033[1;40m | |    \033[1;40m    / /| >
+print '      \033[0;40m|  _  |\033[1;40m   / / | |\033[1;40m | |    \033[1;40m   / / | >
+print '      \033[0;40m| | | |\033[1;40m  / /  | |\033[1;40m | |___ \033[1;40m  / /  | >
+print '      \033[0;40m|_| |_|\033[1;40m /_/   |_|\033[1;40m |_____|\033[1;40m /_/   |_>
+
+print '              ____________________ [!] _____________________'
+print '             |                                              |'
+print '             |       [1] Calls           [2] spam will      |'
+print '             |______________________________________________|'
+print 'k'
+b = raw_input('Enter the number :')
+if b == '1':
+   os.system('python3 Calls.py')
+
+elif b == '2':
+    os.system('python3 wallspam.py')
